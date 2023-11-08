@@ -1,7 +1,9 @@
+import Footer from '../components/Footer';
+
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <h1>Contact</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
@@ -15,6 +17,7 @@ export default function Contact() {
         conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
       </p>
+      <Footer />
     </div>
   );
 }
