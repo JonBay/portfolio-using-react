@@ -1,9 +1,11 @@
-export default function Home() {
+import Footer from '../components/Footer';
+
+export default function AboutMe() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>About Me</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
+        jonLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
         ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
         non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
@@ -14,6 +16,7 @@ export default function Home() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
+      <Footer /> 
     </div>
   );
 }

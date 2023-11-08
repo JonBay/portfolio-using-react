@@ -1,0 +1,29 @@
+.navbar-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: orangered;
+  }
+
+.navbar-left {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+
+.navbar-image {
+    width: 90px; /* Adjust the width of the image as needed */
+  }
+
+.nav nav-tabs {
+    flex-grow: 1;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;git 
+  }
+  
+  .nav-item:hover {
+    background-color: #555;
+  }
