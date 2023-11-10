@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: aqua;
 }
 
 
@@ -47,97 +48,9 @@
 
 
 
-/* - Tailwind
-
-{ 'steel_blue': { DEFAULT: '#4E7FA7', 100: '#101921', 200: '#1f3343', 300: '#2f4c64', 400: '#3f6585', 500: '#4e7fa7', 600: '#6f99bb', 700: '#93b2cc', 800: '#b7ccdd', 900: '#dbe5ee' }, 'bone': { DEFAULT: '#DACCBE', 100: '#34291e', 200: '#68523c', 300: '#9b7a59', 400: '#bca38a', 500: '#daccbe', 600: '#e1d6cb', 700: '#e9e0d8', 800: '#f0ebe5', 900: '#f8f5f2' }, 'steel_blue': { DEFAULT: '#5682A7', 100: '#111a22', 200: '#233543', 300: '#344f65', 400: '#456987', 500: '#5682a7', 600: '#789cba', 700: '#9ab5cb', 800: '#bccedc', 900: '#dde6ee' }, 'sandy_brown': { DEFAULT: '#EFA665', 100: '#3e2006', 200: '#7c410d', 300: '#ba6113', 400: '#e98229', 500: '#efa665', 600: '#f2b885', 700: '#f5caa4', 800: '#f9dcc2', 900: '#fcede1' }, 'lapis_lazuli': { DEFAULT: '#275D85', 100: '#08131b', 200: '#102536', 300: '#173851', 400: '#1f4a6c', 500: '#275d85', 600: '#3681bb', 700: '#62a1d2', 800: '#97c1e1', 900: '#cbe0f0' } }
-
-- CSV
-
-4E7FA7,DACCBE,5682A7,EFA665,275D85
-
-- With #
-
-#4E7FA7, #DACCBE, #5682A7, #EFA665, #275D85
-
-- Array
-
-["4E7FA7","DACCBE","5682A7","EFA665","275D85"]
-
-- Object
-
-{"Steel blue":"4E7FA7","Bone":"DACCBE","Steel blue 2":"5682A7","Sandy brown":"EFA665","Lapis Lazuli":"275D85"}
-
-- Extended Array
-
-[{"name":"Steel blue","hex":"4E7FA7","rgb":[78,127,167],"cmyk":[53,24,0,35],"hsb":[207,53,65],"hsl":[207,36,48],"lab":[51,-5,-26]},{"name":"Bone","hex":"DACCBE","rgb":[218,204,190],"cmyk":[0,6,13,15],"hsb":[30,13,85],"hsl":[30,27,80],"lab":[83,3,9]},{"name":"Steel blue","hex":"5682A7","rgb":[86,130,167],"cmyk":[49,22,0,35],"hsb":[207,49,65],"hsl":[207,32,50],"lab":[53,-5,-24]},{"name":"Sandy brown","hex":"EFA665","rgb":[239,166,101],"cmyk":[0,31,58,6],"hsb":[28,58,94],"hsl":[28,81,67],"lab":[74,20,44]},{"name":"Lapis Lazuli","hex":"275D85","rgb":[39,93,133],"cmyk":[71,30,0,48],"hsb":[206,71,52],"hsl":[206,55,34],"lab":[38,-4,-28]}]
-
-- XML
-
-<palette>
-  <color name="Steel blue" hex="4E7FA7" r="78" g="127" b="167" />
-  <color name="Bone" hex="DACCBE" r="218" g="204" b="190" />
-  <color name="Steel blue" hex="5682A7" r="86" g="130" b="167" />
-  <color name="Sandy brown" hex="EFA665" r="239" g="166" b="101" />
-  <color name="Lapis Lazuli" hex="275D85" r="39" g="93" b="133" />
-</palette>
 
 
-here is the css */
-
-/* CSS HEX */
-/* --steel-blue: #4E7FA7ff;
---bone: #DACCBEff;
---steel-blue-2: #5682A7ff;
---sandy-brown: #EFA665ff;
---lapis-lazuli: #275D85ff; */
-
-/* CSS HSL */
-/* --steel-blue: hsla(207, 36%, 48%, 1);
---bone: hsla(30, 27%, 80%, 1);
---steel-blue-2: hsla(207, 32%, 50%, 1);
---sandy-brown: hsla(28, 81%, 67%, 1);
---lapis-lazuli: hsla(206, 55%, 34%, 1); */
-
-/* SCSS HEX */
-/* $steel-blue: #4E7FA7ff;
-$bone: #DACCBEff;
-$steel-blue-2: #5682A7ff;
-$sandy-brown: #EFA665ff;
-$lapis-lazuli: #275D85ff; */
-
-/* SCSS HSL */
-/* $steel-blue: hsla(207, 36%, 48%, 1);
-$bone: hsla(30, 27%, 80%, 1);
-$steel-blue-2: hsla(207, 32%, 50%, 1);
-$sandy-brown: hsla(28, 81%, 67%, 1);
-$lapis-lazuli: hsla(206, 55%, 34%, 1); */
-
-/* SCSS RGB */
-/* $steel-blue: rgba(78, 127, 167, 1);
-$bone: rgba(218, 204, 190, 1);
-$steel-blue-2: rgba(86, 130, 167, 1);
-$sandy-brown: rgba(239, 166, 101, 1);
-$lapis-lazuli: rgba(39, 93, 133, 1); */
-
-/* SCSS Gradient */
-/* $gradient-top: linear-gradient(0deg, #4E7FA7ff, #DACCBEff, #5682A7ff, #EFA665ff, #275D85ff);
-$gradient-right: linear-gradient(90deg, #4E7FA7ff, #DACCBEff, #5682A7ff, #EFA665ff, #275D85ff);
-$gradient-bottom: linear-gradient(180deg, #4E7FA7ff, #DACCBEff, #5682A7ff, #EFA665ff, #275D85ff);
-$gradient-left: linear-gradient(270deg, #4E7FA7ff, #DACCBEff, #5682A7ff, #EFA665ff, #275D85ff);
-$gradient-top-right: linear-gradient(45deg, #4E7FA7ff, #DACCBEff, #5682A7ff, #EFA665ff, #275D85ff);
-$gradient-bottom-right: linear-gradient(135deg, #4E7FA7ff, #DACCBEff, #5682A7ff, #EFA665ff, #275D85ff);
-$gradient-top-left: linear-gradient(225deg, #4E7FA7ff, #DACCBEff, #5682A7ff, #EFA665ff, #275D85ff);
-$gradient-bottom-left: linear-gradient(315deg, #4E7FA7ff, #DACCBEff, #5682A7ff, #EFA665ff, #275D85ff);
-$gradient-radial: radial-gradient(#4E7FA7ff, #DACCBEff, #5682A7ff, #EFA665ff, #275D85ff);
-
-
-
-<!-- Coolors Palette Widget -->
-      <script src="https://coolors.co/palette-widget/widget.js"></script>
-      <script data-id="07567436033165797">new CoolorsPaletteWidget("07567436033165797", ["4E7FA7","DACCBE","5682A7","EFA665","275D85"]); </script>
-
-
-new one
+/* new one
 
       https://coolors.co/313e56-b34f53-e2bd9b-275d85-ec8254
 
@@ -181,4 +94,4 @@ new one
   <color name="Desert sand" hex="E2BD9B" r="226" g="189" b="155" />
   <color name="Lapis Lazuli" hex="275D85" r="39" g="93" b="133" />
   <color name="Coral" hex="EC8254" r="236" g="130" b="84" />
-</palette> */
+</palette> */ */

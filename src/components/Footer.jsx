@@ -10,15 +10,15 @@ const Footer = () => {
   const [stackoverflowHovered, setStackoverflowHovered] = useState(false);
 
   const handleGithubClick = () => {
-    window.location.href = 'https://github.com/JonBay'; 
+    window.open('https://github.com/JonBay', '_blank'); 
   }
 
   const handleLinkedinClick = () => {
-    window.location.href = 'https://www.linkedin.com/in/jonnybay'; 
+    window.open('https://www.linkedin.com/in/jonnybay', '_blank'); 
   }
 
   const handleStackoverflowClick = () => {
-    window.location.href = 'https://stackoverflow.com/users/21885200/jonbay'; 
+    window.open('https://stackoverflow.com/users/21885200/jonbay', '_blank'); 
   }
   
   return (

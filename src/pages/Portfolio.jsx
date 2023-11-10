@@ -1,17 +1,55 @@
 import Footer from '../components/Footer';
+import "./Portfolio.css";
+import AudibleAtmosphere from '../assets/Audible Atmosphere.png';
+import RealEstate from '../assets/real-estate-admin-rules.png';
+import Readme from '../assets/Generate Readme.png';
+import Quiz from '../assets/Javascript quiz.png';
+import PasswordGen from '../assets/Random Password Generator.png';
+import Calendar from '../assets/Simple Calendering App.png';
+
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <div className="portfolio-grid">
+        <div className="portfolio-item">
+          <img
+            src={AudibleAtmosphere}
+          />
+        </div>
+
+        <div className="portfolio-item">
+          <img
+            src={RealEstate}
+          />
+        </div>
+
+        <div className="portfolio-item">
+          <img
+            src={Readme}
+          />
+        </div>
+
+        <div className="portfolio-item">
+          <img
+            src={Quiz}
+          />
+        </div>
+
+        <div className="portfolio-item">
+          <img
+            src={PasswordGen}
+          />
+        </div>
+
+        <div className="portfolio-item">
+          <img
+            src={Calendar}
+          />
+        </div>
+      </div>
+
       <Footer />
     </div>
   );
