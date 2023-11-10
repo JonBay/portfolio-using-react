@@ -1,0 +1,14 @@
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .portfolio-item {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .portfolio-item img {
+    max-width: 300px;
+  }

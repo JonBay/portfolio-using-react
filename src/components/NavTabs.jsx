@@ -7,7 +7,7 @@ function NavTabs() {
   return (
     <div className="navbar-header">
       <div className="navbar-left">
-        <img src="./src/assets/sunset.jpg" alt="pic of sunset" className="navbar-image" />
+        <h1 className="navbar-name">Jon Bay</h1>
       </div>
       <ul className="nav nav-tabs">
         <li className="nav-item">
