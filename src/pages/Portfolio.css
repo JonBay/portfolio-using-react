@@ -1,14 +1,36 @@
-.portfolio-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.portfolio-item {
+    position: relative;
   }
   
-  .portfolio-item {
-    margin: 20px;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .overlay-content {
     text-align: center;
   }
   
-  .portfolio-item img {
-    max-width: 300px;
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay img {
+    width: 40px; 
+    margin-top: 10px; 
+  }
+  
+  
+  .portfolio-image:hover {
+    filter: brightness(80%); 
   }

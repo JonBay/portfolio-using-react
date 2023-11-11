@@ -31,13 +31,13 @@
 
   @media (max-width: 768px) {
     .nav-tabs {
-      flex-direction: column; /* Stack items vertically on smaller screens */
-      justify-content: center; /* Center items vertically */
-      text-align: center; /* Center text */
+      flex-direction: column; 
+      justify-content: center; 
+      text-align: center; 
     }
   
     .nav-link {
-      font-size: 20px; /* Adjust font size for smaller screens */
-      margin-bottom: 10px; /* Add some space between items */
+      font-size: 20px; 
+      margin-bottom: 10px; 
     }
   }
