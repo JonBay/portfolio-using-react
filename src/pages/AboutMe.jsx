@@ -5,12 +5,12 @@ export default function AboutMe() {
     <div style={{ marginLeft: "60px", marginTop: "10px", marginRight: "120px" }}>
       <h1>About Me</h1>
       <img
-        src="../src/assets/sunset.jpg"
-        alt="Sunset"
+        src="../src/assets/Portrait.jpg"
+        alt="Portrait"
         style={{
-          width: "150px",
+          width: "130px",
           height: "150px",
-          borderRadius: "50%",
+          borderRadius: "30%",
           marginTop: "10px",
           marginBottom: "20px"
         }}

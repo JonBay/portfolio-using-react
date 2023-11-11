@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Make the footer container take up the full viewport height */
+    height: 32vh; 
   }
   
   .icon-container {
@@ -10,8 +10,8 @@
   }
   
   .icon {
-    width: 50px; /* Adjust the size of the icons as needed */
-    margin: 0 10px; /* Add some spacing between the icons */
+    width: 50px; 
+    margin: 0 10px; 
   }
   
   .icon.hovered {
