@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import AudibleAtmosphere from "../assets/Audible Atmosphere.png";
 import RealEstate from "../assets/real-estate-admin-rules.png";
 import Readme from "../assets/Generate Readme.png";
-import Quiz from "../assets/Javascript quiz.png";
+import Quiz from "../assets/Quiz.png";
 import PasswordGen from "../assets/Random Password Generator.png";
 import Calendar from "../assets/Simple Calendering App.png";
 import githubLogo from '../assets/github-mark.svg';
