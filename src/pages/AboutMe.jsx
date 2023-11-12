@@ -1,12 +1,13 @@
 import Footer from "../components/Footer";
+const picture = require("../src/assets/picture.jpg");
 
 export default function AboutMe() {
   return (
     <div style={{ marginLeft: "60px", marginTop: "10px", marginRight: "120px" }}>
       <h1>About Me</h1>
       <img
-        src="../src/assets/picture.jpg"
-        alt="Portrait"
+        src="{picture}"
+        alt="Picture"
         style={{
           width: "130px",
           height: "150px",
