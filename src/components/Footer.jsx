@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import GitHubIcon from '../assets/github-mark.svg';
-import LinkedInIcon from '../assets/Li-In-Bug.svg';
+import LinkedInIcon from '../assets/linkedin.svg';
 import StackOverflowIcon from '../assets/stack.svg';
 import './Footer.css';
 
