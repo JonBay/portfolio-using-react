@@ -5,7 +5,7 @@ export default function AboutMe() {
     <div style={{ marginLeft: "60px", marginTop: "10px", marginRight: "120px" }}>
       <h1>About Me</h1>
       <img
-        src="../src/assets/Portrait.jpg"
+        src="../src/assets/picture.jpg"
         alt="Portrait"
         style={{
           width: "130px",
